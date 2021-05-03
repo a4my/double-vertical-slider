@@ -6,10 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
-    <title>My Project</title>
+    <title>Double Vertical Slider</title>
 </head>
 <body>
-    <h1>Project Starter</h1>
+    <div class="slider-container">
+        <div class="left-slide">
+            <div style="background-color: #0fbcf9;">
+                <h1>Baby Turtle</h1>
+                <p>Flying under the surface</p>
+            </div>
+            <div style="background-color: #4bcffa;">
+                <h1>Great White Shark</h1>
+                <p>Jumping out of the water</p>
+            </div>
+            <div style="background-color: #34e7e4;">
+                <h1>Ray</h1>
+                <p>Cruising above the coral reef</p>
+            </div>
+            <div style="background-color: #00d8d6;">
+                <h1>Shark Whale</h1>
+                <p>Close up in shallow water</p>
+            </div>
+        </div>
+        <div class="right-slide">
+            <div style="background-image: url('./images/sharkwhale.jpg');"></div>
+            <div style="background-image: url('./images/ray.jpg');"></div>
+            <div style="background-image: url('./images/shark.jpg');"></div>
+            <div style="background-image: url('./images/turtle.jpg');"></div>
+        </div>
+        <div class="action-buttons">
+            <button class="down-button">
+                <i class="fas fa-arrow-down"></i>
+            </button>
+            <button class="up-button">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </div>
     
     <script src="script.js"></script>
 </body>
